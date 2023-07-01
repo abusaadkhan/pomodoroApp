@@ -8,7 +8,7 @@ import {useContext} from "react";
 function Settings() {
   const settingsInfo = useContext(timerContext);
   return(
-    <div className='text-left w-[40%]  flex flex-col items-start'>
+    <div className='text-left w-[40%] max-[480px]:w-[80%] flex flex-col items-start'>
       <label className='pb-4' >work: {settingsInfo.workMinutes}:00</label>
       <ReactSlider
         className='h-10 w-full rounded-[20px] border-2 border-solid border-[#f54e4e]  '

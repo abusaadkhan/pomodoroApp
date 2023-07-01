@@ -45,7 +45,7 @@ const Timer = () => {
           }
     
           tick();
-        },5);
+        },1000);
     
     return () => clearInterval(interval)
     }
